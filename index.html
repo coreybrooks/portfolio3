@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Corey Brooks | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/style/style.css" type="text/css" />
+</head>
+
+<body>
+  <div class="outerContainer">
+    <!-- header -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="./index.html">
+          <img src="./assets/images/corey-brooks-web.jpg" style="float: left"alt="corey-image" class=" photo img-circle">
+          </a>  
+          <a href="./index.html" class="noHover" style="float: left"><h4 class="title2">Corey Brooks<br><span class="navSpan">Portfolio</span></h4></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="./indexResume.html" class="title2">Resume</a></li>
+            <li><a href="./indexAbout.html" class="title2">About Me</a></li>
+            <li><a href="./indexContact.html" class="title2">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <ul class="social">
+              <li><a href="https://github.com/coreybrooks"><i class=" fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/corey-brooks"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+    <h3 class="title2">Click on a project to visit the live application</h3>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <a href="https://corey-inventory-app.herokuapp.com/#/" class="noHover">
+            <h3 class="title">Kanban Inventory</h3>
+            <img src="./assets/images/kanban-inventory.jpg" alt="kanban-inventory">
+            <br> 
+            <p class="overview">This is an inventory application that can be used as a SaaS solution to save companies time and labor costs associated with conducting inventory counts.  This application was built with MySQL, Sequelize, Express, Node.js, and React.  A much more comprehensive README file is located in the GitHub repo.</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://coreys-reddit-react-project.herokuapp.com/" class="noHover">
+            <h3 class="title">React Reddit Project</h3>
+            <img src="./assets/images/reddit-react.jpg" alt="react-reddit">
+            <br> 
+            <p class="overview">This is a Reddit style application that allows users to make posts about topics of their choosing.  Users can also create new categories and leave comments about existing posts.  This is a full MERN Stack application.</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://texas-beer-wars.herokuapp.com/" class="noHover">
+            <h3 class="title">Texas Beer Wars</h3>
+            <img src="./assets/images/texas-beer-wars.jpg" alt="texas-beer-wars"><br>
+            <p class="overview">Texas Beer Wars is a full stack interactive web application. This app is designed to allow users to vote on their favorite beer in a battle to find the best native Texan beer.  This project was built using an MVC structure. The backend of this application incorporates Node.js and Express to route both get and post requests.  Mocha and Chai are used as a framework to test the Node.JS RESTful functionality.  The app data is stored in MySQL and JawsDB using a Sequelize ORM.</p>
+          </a>
+        </div>
+    
+        <div class="item">
+          <a href="https://coreys-nyt-api-react.herokuapp.com/" class="noHover">
+            <h3 class="title">NYT React Search</h3>
+            <img src="./assets/images/NYT-react-searcher.jpg" alt="NYT-react-searcher"><br>
+            <p class="overview">This is a full stack application that utilizes the complete MERN Stack.  AJAX requests through Axios are used to query the NYT API for news articles related to the search term within the specified beginning and ending years.  The React components are then rendered to display the search results and the articles saved by the user for later viewing.</p>
+          </a>
+        </div>
+  
+        <div class="item">
+          <a href="https://corey-news-scraper.herokuapp.com/articles" class="noHover">
+            <h3 class="title">Cheerio News Scraper</h3>
+            <img src="./assets/images/news-scraper.jpg" alt="news-scraper"><br>
+            <p class="overview">This is a full stack application that utilizes Node.js, Express, MongoDB, Mongoose, Handlebars.js and Cheerio.  Node.js and Express are used to query and route data into the app and display the appropriate pages.  Cheerio is used to scrape the news data from Rawstory, and the data is stored in MongoDB using Mongoose.  The front-end HTML is displayed using Handlebars.js.  Users can both leave and delete comments for each article.</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://corey-friend-finder.herokuapp.com/" class="noHover">
+            <h3 class="title">Friend Finder</h3>
+            <img src="./assets/images/friend-finder.jpg" alt="friend-finder"><br>
+            <p class="overview">Friend Finder is similar to a dating app.  This is a full stack application that utilizes RESTful methodology to set the HTML and API routes for posting and requesting data through Express and Node.JS.</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://coreys-giphy-app.herokuapp.com/" class="noHover">
+            <h3 class="title">Giphy API</h3>
+            <img src="./assets/images/giphy-api.jpg" alt="giphy-api"><br>
+            <p class="overview">Giphy API is a front end application that utilizes JavaScript, jQuery and AJAX to query GIPHY API to search for GIFs. GIPHY API is a website with a large library of GIFs that can be queried through a REST-like interface accessible through any HTTP enabled programming language.</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://corey-hangman-game.herokuapp.com/" class="noHover">
+            <h3 class="title">Hangman Game</h3>
+            <img src="./assets/images/hangman-game.jpg" alt="hangman-game"><br>
+            <p class="overview">This is a front end application.  Hangman is a rendition of the classic game hangman with a movie title theme. This application was created with VanillaJS and is not mobile responsive. This game must be played on a system that includes a keyboard.</p>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer navbar navbar-default">
+      <div class="container-fluid">
+        <p class="text-center"> Copyright © 2017 Corey Brooks</p>
+      </div>
+    </div>
+
+  </div> 
+
+  <script type="text/javascript" src="./assets/javascript/javascript.js"></script> 
+</body>
+</html>
